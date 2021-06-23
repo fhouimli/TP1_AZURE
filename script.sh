@@ -32,10 +32,3 @@ az vm run-command invoke  --command-id RunShellScript --name fhouimliVM -g tp1-f
 
 #Connexion à la vm
 #ssh -oStrictHostKeyChecking=no $VM_PUBLIC_IP
-
-
-#provisionning... from script-dpl-nodejs
-
-
-#Quitter la vm
-#exit
